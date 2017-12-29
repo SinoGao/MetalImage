@@ -1,0 +1,6 @@
+framework module Pods_MetalExample {
+  umbrella header "Pods-MetalExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
