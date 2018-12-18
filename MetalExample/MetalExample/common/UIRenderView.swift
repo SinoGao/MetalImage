@@ -20,7 +20,7 @@ public class UIRenderView: UIView {
     var timer: CADisplayLink! = nil
     init() {
         super.init(frame: CGRect(x: 0, y: 0, width: 1, height: 1))
-        configMetal()
+        configMetal() 
     }
     
     required public init?(coder aDecoder: NSCoder) {
